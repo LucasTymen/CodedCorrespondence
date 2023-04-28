@@ -5,7 +5,7 @@ traduction = ""
 for char in message:
     if char in letters:
         char_value = letters.find(char)
-        traduction += letters[(char_value - 10) * 26]
+        traduction += letters[(char_value - 10) % 26]
     else:
         traduction += char
 
