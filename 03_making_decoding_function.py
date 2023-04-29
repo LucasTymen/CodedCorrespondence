@@ -1,5 +1,7 @@
 letters = "abcdefghijklmnopqrstuvwxyz"
+
 message = "xuo jxuhu! jxyi yi qd unqcfbu ev q squiqh syfxuh. muhu oek qrbu je tusetu yj? y xefu ie! iudt cu q cuiiqwu rqsa myjx jxu iqcu evviuj!"
+
 traduction = ""
 
 def caesar_decode(message, offset):

@@ -12,7 +12,6 @@ for char in message:
 
 print(traduction)
 
-
 ############################ Solution ###########################
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 
