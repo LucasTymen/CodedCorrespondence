@@ -10,7 +10,6 @@ def caesar_decode(message, offset):
     else:
         traduction += char
 
-
 def caesar_encode(message, offset):
     for char in message:
         if char in letters:
@@ -18,3 +17,5 @@ def caesar_encode(message, offset):
             traduction += letters[(char_value + 10) % 26]
     else:
         traduction += char
+
+caesar_encode()
